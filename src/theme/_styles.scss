@@ -1,0 +1,64 @@
+@import "./variables";
+
+ion-toolbar.main-header {
+  background-color: $primary-color;
+  color: white;
+}
+
+// ion-menu.md ion-content.main-header,
+// ion-menu.md ion-list {
+//   background-color: $secondary-color;
+//   color: white;
+// }
+
+ion-menu.md ion-item.selected ion-icon {
+  color: #ffffff;
+}
+
+.side-menu {
+  ion-menu.md ion-list {
+    padding: 0;
+  }
+
+  ion-menu.md ion-item ion-icon {
+    color: #616e7e;
+  }
+
+  ion-item.selected {
+    background-color: $primary-color;
+    color: #ffffff;
+  }
+
+  // ion-split-pane.ion-app-split {
+  //   --border: none;
+  //   ion-menu {
+  //     --background: $primary-color;
+  //     ion-content {
+  //       --background: $primary-color;
+  //       ion-list-header {
+  //         --background: $primary-color;
+  //         --color: #ffffff;
+  //       }
+  //       ion-item {
+  //         --background: $primary-color;
+  //         --color: #ffffff;
+  //         ion-icon {
+  //           padding-right: 10px;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 18px;
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+  }
+}

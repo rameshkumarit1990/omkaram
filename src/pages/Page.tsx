@@ -4,13 +4,12 @@ import ExploreContainer from '../components/ExploreContainer';
 import './Page.css';
 
 const Page: React.FC = () => {
-
   const { name } = useParams<{ name: string; }>();
 
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar className='main-header'>
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
