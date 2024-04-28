@@ -9,7 +9,7 @@ const Page: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar className='main-header'>
+        <IonToolbar color="#2d8b56" className='main-header'>
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
