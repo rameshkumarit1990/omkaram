@@ -1,0 +1,87 @@
+// styles.scss
+
+@import "variables";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+
+  padding: 10px;
+  padding-top: 4%;
+  // background-image: url("../styles/background_om_4.png");
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // height: 92.39vh;
+  // overflow: auto;
+  // position: relative;
+
+  .ion-card-custom {
+    background-color: $card-color;
+    background: $card-color;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 60px;
+
+    div {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .ion-card-custom-img {
+      width: 40px;
+      height: 40px;
+      margin-left: 5px;
+    }
+
+    .ion-card-custom-label {
+      padding-left: 10px;
+      font-size: 18px;
+      font-weight: 500;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: $text-color;
+    }
+  }
+}
+
+.ashtothram-page ion-header {
+  --ion-background-color: #8500d1;
+  --ion-text-color: white;
+}
+
+.sahasranamam-page ion-header {
+  --ion-background-color: #8500d1;
+  --ion-text-color: white;
+}
+
+.bhajans-page ion-header {
+  --ion-background-color: #8500d1;
+  --ion-text-color: white;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 18px;
+
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+}
+
+ion-menu.md ion-item.selected {
+  color: var(--ion-color-light-contrast);
+
+}
